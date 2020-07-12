@@ -10,7 +10,6 @@ from gensim.utils import tokenize
 import os
 from sklearn.decomposition import PCA
 import pandas as pd
-
 import seaborn as sns
 import matplotlib.pyplot as plt
 os.chdir(r'C:\Users\bishw\OneDrive\Desktop')
@@ -76,3 +75,5 @@ f, axes = plt.subplots(1,1 , figsize=(50,50), sharex=True, sharey=True)
 sns.scatterplot(df.x, df.y)
 for word, pos in df.iterrows():
     axes.annotate(word, pos)
+# code ends here
+# bye bye
